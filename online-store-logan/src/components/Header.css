@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+}
+
+.store_name {
+    display: flex;
+    width: 50%;
+    height: 40px;
+    background-color: #9767d6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.menu_buttons {
+    display: flex;
+    width: 50%;
+    height: 40px;
+    background-color: #9767d6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

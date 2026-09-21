@@ -1,3 +1,5 @@
+import './ProductCard.css' // allows me to use my custom css styles
+
 function ProductCard({name, description, price, image}) {
     return (
         <div className="product-card">
