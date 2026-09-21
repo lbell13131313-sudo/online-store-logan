@@ -7,7 +7,10 @@ function Header({store_name}) {
                 {store_name}
             </div>
             <div className="menu_buttons">
-                Home Products About Contact
+                <div>Home</div>
+                <div>Products</div>
+                <div>About</div>
+                <div>Contact</div>
             </div>
         </div>
     );

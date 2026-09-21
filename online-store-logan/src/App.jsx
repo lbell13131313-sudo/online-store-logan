@@ -2,6 +2,7 @@ import './App.css'
 import ProductCard from './components/ProductCard' // allows us to use the Product Card function from ProductCard.jsx
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
 
 // please note that my page is in dark mode
 function App() {
@@ -38,6 +39,13 @@ function App() {
         description="Plays both fullsize vinyls and mini vinyls"
         price="$249.00"
         image="https://placehold.co/300x200"
+      />
+
+      <Footer
+        store_name="Logan's Tech Shop"
+        email="logantechshop@gmail.com"
+        phone="(123) 456-7890"
+        address="123 Main Street, Nowhereville, NJ 12345"
       />
     </div>
   )
