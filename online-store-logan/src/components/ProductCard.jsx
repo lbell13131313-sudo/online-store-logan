@@ -1,5 +1,6 @@
 import './ProductCard.css' // allows me to use my custom css styles
 
+// each card has the same format to help with a clean look
 function ProductCard({name, description, price, image}) {
     return (
         <div className="product-card">

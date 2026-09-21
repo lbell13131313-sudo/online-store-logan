@@ -1,5 +1,6 @@
 import './Footer.css' // allows me to use my custom css styles
 
+// footer uses two main portions that have different text arranged in rows in them
 function Footer({store_name, email, phone, address}) {
     return (
         <div className="footer">
