@@ -1,12 +1,19 @@
 import './App.css'
 import ProductCard from './components/ProductCard' // allows us to use the Product Card function from ProductCard.jsx
 import Header from './components/Header'
+import Hero from './components/Hero'
 
+// please note that my page is in dark mode
 function App() {
   return (
     <div className="app">
       <Header
         store_name="Logan's Tech Shop"
+      />
+
+      {/* I had to change the link because my page is only 1124px wide for some reason I have no idea why */}
+      <Hero
+        image="https://placehold.co/1124x400/9767d6/ffffff?text=Shop+Tech+and+Tech+Related+Items"
       />
 
       <h3>Featured Products</h3>
