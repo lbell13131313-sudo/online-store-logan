@@ -19,6 +19,7 @@ function App() {
 
       <h3>Featured Products</h3>
 
+      {/* allows the product cards to be in a row centered on the screen */}
       <div className="product_row">
         {/* supplies the props to the ProductCard function in ProductCard.jsx */}
         <ProductCard
